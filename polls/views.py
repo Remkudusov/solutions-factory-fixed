@@ -5,8 +5,8 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework.permissions import IsAuthenticated
 
-from .serializers import GetPollSerializer, PostPollSerializer, UpdatePollSerializer, GetVariantSerializer, PostVariantSerializer, UpdateVariantSerializer, GetQuestionSerializer, PostQuestionSerializer, UpdateQuestionSerializer, PostAnswerSerializer, GetUserActivitySerializer
-from .models import Poll, Question, Variant, Answer
+from .serializers import *
+from .models import *
 
 from datetime import datetime
 
