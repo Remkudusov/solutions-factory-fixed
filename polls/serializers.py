@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import Poll, Question, Variant, Answer
+from .models import *
 
 from dateutil.parser import parse
 
